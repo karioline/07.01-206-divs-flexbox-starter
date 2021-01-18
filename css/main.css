@@ -99,26 +99,42 @@ textarea {
 html {
   background-color: rgb(10, 10, 10);
   height: 100%;
-  background: url(../img/bkgd.jpg) no-repeat center center fixed;
-  background-size: cover;
+  width: 100%;
+  /* background: url(../img/bkgd.jpg) no-repeat center center fixed; */
+  /* background-size: cover; */
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 16px;
+  color:rgb(255, 255, 255);
+  padding: 0 2em;
+  font-size: 1.25em;
   height: 100%;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 500;
+  /* font-weight: 500; */
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  flex-flow: row wrap;
 }
 
+header,
+footer {
+  background-color: #222;
+  height: 80px;
+  width: 100%;
+}
 
-.div-1, .div-2, .div-3 {
+header, footer, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-items {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
@@ -133,10 +149,10 @@ body {
   border: 2px rgb(228, 230, 131) dashed;
 }
 
-p {
+/* p {
     font-size: 1em;
     padding: 20px
-}
+} */
 
 
 
