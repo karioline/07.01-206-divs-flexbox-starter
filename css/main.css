@@ -117,13 +117,24 @@ body {
   /* font-weight: 500; */
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-flow: row wrap;
 }
 
 header,
 footer {
-  background-color: #222;
+  height: 80px;
+  width: 100%;
+}
+
+main {
+  height: 250px;
+  width: 100%;
+}
+
+header,
+main,
+footer {
   height: 80px;
   width: 100%;
 }
@@ -132,21 +143,35 @@ header, footer, main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px;
+}
+
+header {
+    font-family: 'Sofia', cursive;
+    font-size: 4em;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
 }
 
 .flex-items {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: rgba(24, 66%, 44%, 0.502);
+  /* line-height: 1.5em;
+  font-size: 1.6em; */
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
   align-content: center;
-  border: 2px rgb(228, 230, 131) dashed;
+  padding: 25px;
+}
+
+#div-1, #div-2 {
+    border-right: 2px silver solid;
 }
 
 /* p {
