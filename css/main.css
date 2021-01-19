@@ -110,6 +110,8 @@ body {
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
