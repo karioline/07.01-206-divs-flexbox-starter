@@ -148,10 +148,15 @@ header, footer, main {
     padding: 25px;
 }
 
-header {
+header span {
     font-family: 'Sofia', cursive;
     font-size: 4em;
-    text-align: left;
+    padding: 50px;
+}
+
+header {
+    font-size: 2em;
+    font-family: 'Lora', serif;
 }
 
 footer {
